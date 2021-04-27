@@ -1,0 +1,28 @@
+/************** COLORS **************/
+$introBg: #1c2431;
+$mainBg: #181f2a;
+$footerBg: #0b1523;
+$testimonialBg: #202a3c;
+$ctaCyan: #65e2d9;
+$ctaBlue: #339ecc;
+$white: #ffffff;
+
+/****************** BREAKPOINTS ******************/
+
+
+$breakpoints-up: ("medium": 640px, "large": 1024px, "xlarge": 1400px);
+
+$breakpoints-down: ("small": 639px, "medium": 1023px, "large": 1339px);
+
+@mixin breakpoint-up($size) {
+    @media (min-width: map-get($breakpoints-up, $size)) {
+        @content;
+    }
+}
+
+
+@mixin breakpoint-down($size) {
+    @media (max-width: map-get($breakpoints-down, $size)) {
+        @content;
+    }
+}

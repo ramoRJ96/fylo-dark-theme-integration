@@ -1,0 +1,42 @@
+.hero {
+    background-color: $introBg;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+
+    img {
+        width: 100%;
+        max-width: 716px
+    }
+
+    h1 {
+        max-width: 678px;
+        font-size: 1.5em;
+        line-height: 1.5;
+        margin: 1.1em 0;
+    }
+
+    p {
+        max-width: 585px;
+        font-size: 0.95em;  
+    }
+
+    .button {
+        background: linear-gradient(to right, $ctaCyan, $ctaBlue);
+        padding: 20px 40px;
+        font-size: 0.65em;
+        font-weight: 700;
+        border-radius: 30px;
+        width: 100%;
+        max-width: 285px;
+        transition: background 300ms ease-in-out;
+        margin-top: 8px;
+
+        &:hover {
+            background: linear-gradient(to right, $ctaCyan, $ctaCyan); 
+        }
+
+    }
+
+}
