@@ -275,8 +275,9 @@ header a:hover {
 .productive__text a {
   background-image: url("/images/icon-arrow.svg");
   background-repeat: no-repeat;
-  background-position: right center;
+  background-position: right 1px;
   padding-right: 25px;
+  padding-bottom: 6px;
   color: #65e2d9;
   border-bottom: 1px solid #65e2d9;
   -webkit-transition: all 300ms ease-in-out;
