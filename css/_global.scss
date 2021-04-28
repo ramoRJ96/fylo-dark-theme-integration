@@ -40,6 +40,15 @@ a, a:visited {
 }
 
 section {
-    padding: 0px 27px 160px;
     background-color: $mainBg;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 25px 20px 100px 20px;
+
+    @include breakpoint-up(large) {
+        padding: 73px 60px 87px 60px;
+    }
 }

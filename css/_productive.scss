@@ -9,8 +9,9 @@
         margin:0 auto;
 
         @include breakpoint-up(large) {
-            grid-template-columns: 4fr 3fr;
-            max-width: none;
+            grid-template-columns: repeat(2, 1fr);
+            max-width: 1320px;
+
         }
     }
 
@@ -24,10 +25,6 @@
     }
 
     &__text {
-        
-        @include breakpoint-up(large) {
-            padding-right: 4rem;
-        }
         
         h2 {
             font-size: 1.3em;
@@ -49,7 +46,7 @@
             padding-bottom: 6px;
             color: $ctaCyan;
             border-bottom: 1px solid $ctaCyan;
-            transition: all 300ms ease-in-out;
+            transition: all 150ms ease-in-out;
 
             &:hover {
                 background-image: url("/images/icon-arrow-white.svg");
