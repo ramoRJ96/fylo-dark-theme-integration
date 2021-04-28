@@ -27,8 +27,7 @@
     &__text {
         
         h2 {
-            font-size: 1.3em;
-
+            
             @include breakpoint-up(large) {
                 max-width: 400px;
             }

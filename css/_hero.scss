@@ -49,21 +49,4 @@
         font-size: 0.95em;  
     }
 
-    .button {
-        background: linear-gradient(to right, $ctaCyan, $ctaBlue);
-        padding: 20px 40px;
-        font-size: 0.65em;
-        font-weight: 700;
-        border-radius: 30px;
-        width: 100%;
-        max-width: 285px;
-        transition: background 300ms ease-in-out;
-        margin-top: 8px;
-
-        &:hover {
-            background: linear-gradient(to right, $ctaCyan, $ctaCyan); 
-        }
-
-    }
-
 }
