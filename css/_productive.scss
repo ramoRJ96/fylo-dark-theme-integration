@@ -1,0 +1,62 @@
+.productive {
+
+    &__grid {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 50px;
+        align-items: center;
+        max-width: 600px;
+        margin:0 auto;
+
+        @include breakpoint-up(large) {
+            grid-template-columns: 4fr 3fr;
+            max-width: none;
+        }
+    }
+
+    &__image {
+        text-align: center;
+
+        img {
+            width: 100%;
+            max-width: 615px;
+        }
+    }
+
+    &__text {
+        
+        @include breakpoint-up(large) {
+            padding-right: 4rem;
+        }
+        
+        h2 {
+            font-size: 1.3em;
+
+            @include breakpoint-up(large) {
+                max-width: 400px;
+            }
+        }
+        
+        p {
+            
+        }
+
+        a {
+            background-image: url("/images/icon-arrow.svg");
+            background-repeat: no-repeat;
+            background-position: right center;
+            padding-right: 25px;
+            color: $ctaCyan;
+            border-bottom: 1px solid $ctaCyan;
+            transition: all 300ms ease-in-out;
+
+            &:hover {
+                background-image: url("/images/icon-arrow-white.svg");
+                border-bottom: 1px solid $white;
+                color: $white;
+            }
+        }
+
+    }
+
+}
