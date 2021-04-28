@@ -336,8 +336,8 @@ header a:hover {
 
 @media (min-width: 1024px) {
   .quotes__grid:first-child::before {
-    top: 37px;
-    left: 50px;
+    top: 41px;
+    left: 44px;
     width: 60px;
     height: 45px;
   }
