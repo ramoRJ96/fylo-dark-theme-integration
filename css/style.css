@@ -59,6 +59,15 @@ section {
   background-color: #181f2a;
 }
 
+.attribution {
+  color: #000;
+  margin-bottom: 0;
+}
+
+.attribution > a {
+  font-size: 10px;
+}
+
 .container, .container--small {
   max-width: 1440px;
   margin: 0 auto;

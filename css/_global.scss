@@ -51,3 +51,11 @@ a, a:visited {
 section {
     background-color: $mainBg;
 }
+
+.attribution {
+    color: #000;
+    margin-bottom: 0;
+    > a {
+        font-size: 10px;
+    }
+}
